@@ -48,8 +48,8 @@ namespace Todo
 
 		public int ResumeAtTodoId { get; set; }
 
-		protected override void OnStart()
-		{
+		//protected override void OnStart()
+		//{
 			//Debug.WriteLine("OnStart");
 
 			//// always re-set when the app starts
@@ -72,7 +72,7 @@ namespace Todo
 			//		}
 			//	}
 			//}
-		}
+		//}
 
 		protected override void OnSleep()
 		{
